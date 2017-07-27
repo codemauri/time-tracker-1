@@ -12,28 +12,28 @@ public class Tracker {
     private List<TimeEntry> entries;
     /**
      * Add Method
-     * @param TimeEntry to add to entries
+     * @param entry to add to entries
      */
     public void add(TimeEntry entry) {
         entries.add(entry);
     }
     /**
      * Remove Method
-     * @param TimeEntry to remove from entries
+     * @param entry to remove from entries
      */
     public void remove(TimeEntry entry) {
         entries.remove(entry);
     }
     /**
      * Size Method
-     * @param int size for entries
+     * @param size for entries
      */
     public int size() {
         return entries.size();
     }
     /** 
      * Get Method
-     * @param int index for entries
+     * @param index for entries
      */
     public TimeEntry get(int index) {
         return entries.get(index);
