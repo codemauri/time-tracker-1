@@ -9,43 +9,43 @@ import org.springframework.stereotype.Component;
 @Component
 @Scope("prototype")
 public class TimeEntry {
-    private String description; //Description for Time Eentry
-    private float rate;         //Rate of time entry
-    private int time;           //Time of Time enrty
+    private String description; //Description for Time Entry.
+    private float rate;         //Rate of time entry.
+    private int time;           //Time of Time enrty.
     /**
-     * Get description Method
+     * Get description Method.
      */
     public String getDescription() {
         return description;
     }
     /**
-     * Set Description Method
+     * Set Description Method.
      * @param value to describe entries
      */
     public void setDescription(final String value) {
         this.description = value;
     }
     /**
-     * Get Rate Method
+     * Get Rate Method.
      */
     public float getRate() {
         return rate;
     }
     /**
-     * SetRate Method
+     * SetRate Method.
      * @param value to add to set rate
      */
     public void setRate(final float value) {
         this.rate = value;
     }
     /**
-     * Get Time Method
+     * Get Time Method.
      */
     public int getTime() {
         return time;
     }
     /**
-     * Set Time Method
+     * Set Time Method.
      * @param value to add to set time
      */
     public void setTime(final int value) {
