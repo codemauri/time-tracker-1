@@ -12,27 +12,42 @@ public class TimeEntry {
     private String description;
     private float rate;
     private int time;
-
+    /**
+     * Get description Method
+     * /
     public String getDescription() {
         return description;
     }
-
+    /**
+     * Set Description Method
+     * @param value to describe entries
+     * /
     public void setDescription(final String value) {
         this.description = value;
     }
-
+    /**
+     * Get Rate Method
+     * /
     public float getRate() {
         return rate;
     }
-
+    /**
+     * SetRate Method
+     * @param value to add to set rate
+     * /
     public void setRate(final float value) {
         this.rate = value;
     }
-
+    /**
+     * Get Time Method
+     * /
     public int getTime() {
         return time;
     }
-
+    /**
+     * Set Time Method
+     * @param value to add to set time
+     * /
     public void setTime(final int value) {
         this.time = value;
     }
