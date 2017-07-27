@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 @Component
 @Scope("prototype")
 public class TimeEntry {
-    private String description; //Description for Time Entry.
-    private float rate;         //Rate of time entry.
-    private int time;           //Time of Time enrty.
+    private String description; // Description for Time Entry.
+    private float rate;         // Rate of time entry.
+    private int time;           // Time of Time enrty.
     /**
      * Get description Method.
      */
